@@ -1,5 +1,35 @@
 #Social Application
 
+###Running application
+
+This is SpringBoot application using Java 11 and Gradle
+
+To run this application go to project roor folder (`/social`) and invoke:
+
+```
+(on Windows)
+gradlew bootRun
+
+(on Unix)
+./gradlew bootRun
+```
+
+If you have no `JAVA_HOME` environment variable setup it can throw error: 
+
+```
+ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
+```
+
+To set `JAVA_HOME` variable:
+
+```
+(on Windows)
+set JAVA_HOME="C:\Program Files\Java\jdk-11"
+
+(on Unix)
+export JAVA_HOME="path to java"
+```
+
 ###API description
 
 ###Posting messages
